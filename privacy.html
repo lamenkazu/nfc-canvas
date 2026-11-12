@@ -11,7 +11,7 @@
 <main>
   <p class="lang"><a href="privacidade.html" lang="pt-BR">Português</a></p>
   <h1>NFC Canvas privacy policy</h1>
-  <p class="meta">Effective November 6, 2026.</p>
+  <p class="meta">Effective November 12, 2026.</p>
 
   <p>NFC Canvas is an Android app that reads and writes NFC tags and creates and scans QR codes. This policy explains what data the app handles, why, and how to ask for deletion.</p>
 
@@ -20,6 +20,11 @@
     <li><strong>The content of tags and QR codes</strong> you read, create or save (links, Wi-Fi networks and passwords, contacts, text). It stays in the app's storage on your device and is never sent anywhere.</li>
     <li><strong>Camera:</strong> used only while you scan a QR code. The image is processed on the device and is neither stored nor sent.</li>
     <li><strong>NFC:</strong> reading and writing happen between the phone and the tag, with no server.</li>
+    <li><strong>Gallery images:</strong> when you pick an image to read a QR code, it is read on the device and is neither copied nor sent.</li>
+    <li><strong>Read history</strong> (off by default): if you turn it on, the tags and QR codes you read are kept on the device, outside the backup, until you clear the history.</li>
+    <li><strong>Routines and webhooks:</strong> routines live in the app library. Webhook addresses and keys are kept in Android secure storage and leave the phone only when the routine itself calls the service you set up.</li>
+    <li><strong>Fingerprint and passcode:</strong> a routine can ask for your fingerprint, face or phone passcode before it runs. Android itself checks it; the app only learns "confirmed" or "not confirmed", never the biometric data or the passcode. The option to show the routine in the status bar uses a notification on the device, which is not sent anywhere.</li>
+    <li><strong>Backup:</strong> the backup file is created and stored wherever you choose; the app does not send it to any server. It does not include webhook addresses or keys.</li>
     <li><strong>Preferences</strong> (theme, tour seen) stay on the device.</li>
   </ul>
   <p>The app needs no account, shows no ads and does not sell data.</p>
